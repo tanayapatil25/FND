@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2ecc71; /* Vibrant green */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    padding: 30px;
+    background-color: #3498db; /* Vibrant blue */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.header {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none; /* Hide labels but keep them accessible for screen readers */
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #2980b9; /* Vibrant blue */
+    border-radius: 5px;
+    color: #333333;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff7675; /* Vibrant red */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover {
+    background-color: #d63031; /* Darker red on hover */
+}
+
+a {
+    color: #ffffff; /* Set link color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    color: #fdcb6e; /* Vibrant yellow on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
